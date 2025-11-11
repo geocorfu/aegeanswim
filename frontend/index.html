@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Find perfect swimming beaches in the Aegean Sea based on real-time wind conditions. Never get caught in rough waters again!">
+    <meta name="keywords" content="aegean, beaches, swimming, greece, cyclades, meltemi, weather, wind">
+    <meta name="author" content="Geo Kritikos">
+    <title>AegeanSwim - Find Perfect Swimming Beaches in the Aegean</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌊</text></svg>">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <span>🌊</span>
+                AegeanSwim
+            </div>
+            <ul class="nav-links">
+                <li><a href="#finder">Find Beaches</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#donate" class="donate-nav">💝 Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Find Perfect Swimming Beaches in the Aegean</h1>
+            <p>🏖️ Never get caught in rough waters again! Our smart service analyzes real-time wind conditions and geographical protection to recommend the best beaches for swimming.</p>
+
+            <div class="beach-finder" id="finder">
+                <h3>🔍 Find Your Perfect Beach Now</h3>
+                <div class="finder-form">
+                    <div class="form-group">
+                        <label for="island-select">Choose Your Island</label>
+                        <select id="island-select" required>
+                            <option value="">Select an Aegean Island...</option>
+                            <!-- Islands will be loaded dynamically -->
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date-select">Date</label>
+                            <input type="date" id="date-select" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time-select">Preferred Time</label>
+                            <select id="time-select" required>
+                                <option value="">Select time...</option>
+                                <option value="early-morning">🌅 Early Morning (6-9 AM)</option>
+                                <option value="morning">☀️ Morning (9-12 PM)</option>
+                                <option value="midday">🌞 Midday (12-3 PM)</option>
+                                <option value="afternoon">🌤️ Afternoon (3-6 PM)</option>
+                                <option value="evening">🌇 Evening (6-8 PM)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="button" class="find-beaches-btn" id="findBeachesBtn">
+                        🔍 Find Perfect Beaches
+                    </button>
+                </div>
+
+                <div class="results-section" id="resultsSection">
+                    <div class="results-header">
+                        <h4 class="results-title">🏖️ Recommended Swimming Beaches</h4>
+                        <div class="weather-info" id="weatherInfo">
+                            Loading weather data...
+                        </div>
+                    </div>
+                    <div class="beach-results" id="beachResults">
+                        <!-- Results will be populated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="donation-section" id="donate">
+        <div class="container donation-container">
+            <div class="donation-header">
+                <h2 class="donation-title">Support AegeanSwim 💝</h2>
+                <p class="donation-subtitle">Help us map every safe swimming spot in the Aegean Sea and keep this service free for everyone!</p>
+            </div>
+
+            <div class="donation-content">
+                <div class="donation-info">
+                    <h3><span>🎯</span> What Your Donation Funds</h3>
+                    <ul class="donation-list">
+                        <li>Research trips to map 50+ more islands</li>
+                        <li>Premium weather API for better accuracy</li>
+                        <li>Mobile app development (iOS & Android)</li>
+                        <li>Server costs to keep the service running</li>
+                        <li>Local beach safety equipment donations</li>
+                        <li>My dream Aegean research vacation 🏖️</li>
+                    </ul>
+                </div>
+
+                <div class="donation-options">
+                    <h3>Choose Your Support Level</h3>
+                    <div class="donation-amount-grid">
+                        <button class="amount-btn" onclick="donateAmount(5)">€5</button>
+                        <button class="amount-btn" onclick="donateAmount(10)">€10</button>
+                        <button class="amount-btn" onclick="donateAmount(25)">€25</button>
+                        <button class="amount-btn" onclick="donateAmount(50)">€50</button>
+                        <button class="amount-btn" onclick="donateAmount(100)">€100</button>
+                        <button class="amount-btn" onclick="donateAmount(250)">€250</button>
+                        <div class="custom-amount">
+                            <input type="number" id="customAmount" placeholder="Custom amount €" min="1">
+                            <button class="amount-btn" onclick="donateCustom()">Donate</button>
+                        </div>
+                    </div>
+
+                    <div class="paypal-buttons">
+                        <a href="https://paypal.me/geokritikos" class="paypal-btn" id="paypalDonateBtn" target="_blank" rel="noopener">
+                            <span class="paypal-logo">PayPal</span>
+                            Quick Donate
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="progress-section">
+                <div class="progress-header">
+                    <div class="progress-title">🎯 2025 Funding Goal</div>
+                    <div class="progress-amount">€3,500 / €10,000</div>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill">
+                        <span class="progress-percentage">35%</span>
+                    </div>
+                </div>
+                <p class="progress-description">
+                    We've mapped 30 islands so far! Help us reach our goal to cover all 227 inhabited Greek islands with swimming safety data. Every euro helps provide free beach safety information to thousands of swimmers.
+                </p>
+            </div>
+
+            <div class="other-options">
+                <h4>Other Ways to Support</h4>
+                <div class="other-payment-methods">
+                    <a href="#" class="payment-method" onclick="showPaymentInfo('bitcoin'); return false;">Bitcoin</a>
+                    <a href="#" class="payment-method" onclick="showPaymentInfo('ethereum'); return false;">Ethereum</a>
+                    <a href="https://ko-fi.com" class="payment-method" target="_blank" rel="noopener">Ko-fi</a>
+                    <a href="https://patreon.com" class="payment-method" target="_blank" rel="noopener">Patreon</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section" id="features">
+        <div class="container">
+            <h2 style="text-align: center; color: #0c4a6e; font-size: 2.5rem; margin-bottom: 20px;">Why AegeanSwim?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🌬️</div>
+                    <h3 class="feature-title">Real-Time Wind Analysis</h3>
+                    <p class="feature-description">Live weather data from Open-Meteo API analyzing wind patterns, Meltemi conditions, and swimming safety</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🗺️</div>
+                    <h3 class="feature-title">30+ Islands Coverage</h3>
+                    <p class="feature-description">Comprehensive database of 100+ beaches across Cyclades, Dodecanese, and North Aegean islands</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🛡️</div>
+                    <h3 class="feature-title">Geographical Protection</h3>
+                    <p class="feature-description">Advanced algorithms calculate wind shelter from cliffs, bays, and natural formations</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3 class="feature-title">Smart Recommendations</h3>
+                    <p class="feature-description">AI-powered ranking system finds the best swimming conditions for your specific time and location</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3 class="feature-title">Mobile Optimized</h3>
+                    <p class="feature-description">Perfect for checking conditions on-the-go from your phone at the beach</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💝</div>
+                    <h3 class="feature-title">Community Supported</h3>
+                    <p class="feature-description">Free service funded by beach lovers like you who believe in ocean safety for everyone</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="background: #0c4a6e; color: white; padding: 30px 0; text-align: center; margin-top: 60px;">
+        <div class="container">
+            <p>&copy; 2024 AegeanSwim. Made with 🌊 in the Aegean Sea</p>
+            <p style="margin-top: 10px; opacity: 0.8;">Weather data provided by Open-Meteo API</p>
+        </div>
+    </footer>
+
+    <div class="toast" id="toast"></div>
+
+    <!-- Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
