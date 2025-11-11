@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2024-11-11",
+    "totalBeaches": 107,
+    "totalIslands": 30,
+    "regions": ["Cyclades", "Dodecanese", "North Aegean", "Major Islands"]
+  },
+  "beaches": {
+    "mykonos": [
+      { "name": "Ornos Beach", "lat": 37.4089, "lon": 25.3264, "protection": "high", "meltemiShield": "excellent", "description": "South-facing bay, completely sheltered from Meltemi winds. Perfect for families." },
+      { "name": "Platis Gialos", "lat": 37.4026, "lon": 25.3342, "protection": "high", "meltemiShield": "excellent", "description": "Large sandy beach protected by natural bay formation. Water sports available." },
+      { "name": "Psarou Beach", "lat": 37.4041, "lon": 25.3288, "protection": "moderate", "meltemiShield": "good", "description": "Famous beach with partial Meltemi protection. Luxury beach clubs." },
+      { "name": "Paradise Beach", "lat": 37.4017, "lon": 25.3367, "protection": "low", "meltemiShield": "poor", "description": "Party beach, very exposed to north winds. Better for parties than swimming." },
+      { "name": "Super Paradise", "lat": 37.4000, "lon": 25.3400, "protection": "moderate", "meltemiShield": "moderate", "description": "Famous party beach with some wind protection from surrounding hills." }
+    ],
+    "santorini": [
+      { "name": "Kamari Beach", "lat": 36.3845, "lon": 25.4794, "protection": "high", "meltemiShield": "excellent", "description": "East coast black sand beach, Mesa Vouno mountain blocks Meltemi perfectly." },
+      { "name": "Perissa Beach", "lat": 36.3653, "lon": 25.4806, "protection": "high", "meltemiShield": "excellent", "description": "Protected by dramatic cliffs from northern winds. Black sand, crystal waters." },
+      { "name": "Red Beach", "lat": 36.3486, "lon": 25.3964, "protection": "moderate", "meltemiShield": "good", "description": "Red cliffs provide natural windbreak. Unique volcanic landscape." },
+      { "name": "Vlychada Beach", "lat": 36.3400, "lon": 25.4300, "protection": "high", "meltemiShield": "excellent", "description": "Lunar-like landscape with excellent wind protection. Marina nearby." }
+    ],
+    "paros": [
+      { "name": "Parikia Beach", "lat": 37.0857, "lon": 25.1481, "protection": "high", "meltemiShield": "excellent", "description": "West-facing town beach, Meltemi actually helps cool the area. Easy access." },
+      { "name": "Logaras Beach", "lat": 37.0344, "lon": 25.2047, "protection": "high", "meltemiShield": "excellent", "description": "South coast gem, completely sheltered from Meltemi. Peaceful atmosphere." },
+      { "name": "Chrysi Akti", "lat": 37.0214, "lon": 25.2175, "protection": "low", "meltemiShield": "poor", "description": "Famous windsurfing beach - avoid during strong Meltemi for swimming." },
+      { "name": "Farangas Beach", "lat": 37.0167, "lon": 25.2333, "protection": "high", "meltemiShield": "excellent", "description": "Small south coast cove with excellent protection. Rock formations." }
+    ],
+    "naxos": [
+      { "name": "Agia Anna", "lat": 37.0536, "lon": 25.3414, "protection": "high", "meltemiShield": "excellent", "description": "Perfect family beach, south-west facing bay. Shallow waters." },
+      { "name": "Plaka Beach", "lat": 37.0558, "lon": 25.3647, "protection": "moderate", "meltemiShield": "moderate", "description": "West coast - partially protected by dunes from Meltemi. Long sandy stretch." },
+      { "name": "Mikri Vigla", "lat": 37.0147, "lon": 25.3714, "protection": "low", "meltemiShield": "poor", "description": "Prime kitesurfing spot - very windy during Meltemi season." },
+      { "name": "Agios Prokopios", "lat": 37.0581, "lon": 25.3458, "protection": "high", "meltemiShield": "excellent", "description": "Award-winning beach with excellent protection. Crystal clear waters." }
+    ],
+    "ios": [
+      { "name": "Mylopotas Beach", "lat": 36.6833, "lon": 25.3167, "protection": "moderate", "meltemiShield": "moderate", "description": "Main beach, can get choppy during Meltemi. Long sandy beach." },
+      { "name": "Manganari Beach", "lat": 36.6333, "lon": 25.3500, "protection": "high", "meltemiShield": "excellent", "description": "South coast paradise, completely protected from Meltemi. Crystal clear waters." },
+      { "name": "Koumbara Beach", "lat": 36.7000, "lon": 25.2667, "protection": "moderate", "meltemiShield": "good", "description": "Secluded beach with moderate protection. Popular with locals." }
+    ],
+    "milos": [
+      { "name": "Sarakiniko", "lat": 36.7358, "lon": 24.4456, "protection": "moderate", "meltemiShield": "good", "description": "Unique white moon-like landscape. Some wind protection from rock formations." },
+      { "name": "Klima Beach", "lat": 36.7250, "lon": 24.4269, "protection": "high", "meltemiShield": "excellent", "description": "Colorful fishing village bay, perfect Meltemi shelter. Photogenic houses." },
+      { "name": "Firopotamos", "lat": 36.7167, "lon": 24.4667, "protection": "high", "meltemiShield": "excellent", "description": "Small cove with crystal waters, excellent protection. Traditional village." },
+      { "name": "Tsigrado Beach", "lat": 36.6833, "lon": 24.4833, "protection": "high", "meltemiShield": "excellent", "description": "Hidden gem accessed by rope ladder. Complete wind protection." }
+    ],
+    "syros": [
+      { "name": "Galissas Beach", "lat": 37.4000, "lon": 24.8833, "protection": "high", "meltemiShield": "excellent", "description": "West coast bay with excellent Meltemi protection. Family-friendly." },
+      { "name": "Kini Beach", "lat": 37.4333, "lon": 24.8667, "protection": "high", "meltemiShield": "excellent", "description": "Northwest facing bay, great sunset and Meltemi shelter. Tavernas." },
+      { "name": "Vari Beach", "lat": 37.3833, "lon": 24.9167, "protection": "high", "meltemiShield": "excellent", "description": "Sheltered bay perfect during Meltemi season. Sandy beach." }
+    ],
+    "tinos": [
+      { "name": "Kolympithra Beach", "lat": 37.6167, "lon": 25.1167, "protection": "moderate", "meltemiShield": "moderate", "description": "Two connected bays, choose the calmer side based on wind direction." },
+      { "name": "Livada Beach", "lat": 37.5833, "lon": 25.1333, "protection": "high", "meltemiShield": "excellent", "description": "South coast gem with excellent Meltemi protection. Long sandy beach." },
+      { "name": "Agios Fokas", "lat": 37.5500, "lon": 25.1833, "protection": "moderate", "meltemiShield": "good", "description": "Southeast facing with partial wind protection. Close to town." }
+    ],
+    "andros": [
+      { "name": "Batsi Beach", "lat": 37.8667, "lon": 24.7833, "protection": "high", "meltemiShield": "excellent", "description": "West coast fishing village bay, perfect shelter from Meltemi. Restaurants." },
+      { "name": "Golden Beach", "lat": 37.8333, "lon": 24.9333, "protection": "low", "meltemiShield": "poor", "description": "East coast - stunning but very windy during Meltemi. Better in calm conditions." },
+      { "name": "Agios Petros", "lat": 37.8167, "lon": 24.7667, "protection": "high", "meltemiShield": "excellent", "description": "Southwest coast with natural windbreaks. Sandy beach." }
+    ],
+    "kea": [
+      { "name": "Koundouros Beach", "lat": 37.5833, "lon": 24.2833, "protection": "high", "meltemiShield": "excellent", "description": "Southwest bay completely sheltered from northern winds. Multiple coves." },
+      { "name": "Pisses Beach", "lat": 37.6000, "lon": 24.2667, "protection": "moderate", "meltemiShield": "good", "description": "West coast with good Meltemi protection. Ancient ruins nearby." },
+      { "name": "Spathi Beach", "lat": 37.5667, "lon": 24.3833, "protection": "high", "meltemiShield": "excellent", "description": "Remote southeast beach with excellent protection. Worth the drive." }
+    ],
+    "kythnos": [
+      { "name": "Kolona Beach", "lat": 37.4167, "lon": 24.4167, "protection": "moderate", "meltemiShield": "good", "description": "Double-sided beach, choose the sheltered side during Meltemi. Unique formation." },
+      { "name": "Episkopi Beach", "lat": 37.3833, "lon": 24.4333, "protection": "high", "meltemiShield": "excellent", "description": "Southeast bay with natural wind protection. Sandy beach." },
+      { "name": "Flambouria Beach", "lat": 37.3667, "lon": 24.4500, "protection": "high", "meltemiShield": "excellent", "description": "South coast hideaway, perfect during strong winds. Peaceful." }
+    ],
+    "amorgos": [
+      { "name": "Agia Anna Beach", "lat": 36.8333, "lon": 25.8833, "protection": "high", "meltemiShield": "excellent", "description": "South coast below famous Monastery, excellent protection from Meltemi." },
+      { "name": "Mouros Beach", "lat": 36.8500, "lon": 25.9167, "protection": "moderate", "meltemiShield": "moderate", "description": "East coast with some wind exposure. Scenic location." },
+      { "name": "Kalotaritissa Bay", "lat": 36.8167, "lon": 25.8167, "protection": "high", "meltemiShield": "excellent", "description": "Southwest bay with shipwreck. Complete wind protection." }
+    ],
+    "folegandros": [
+      { "name": "Angali Beach", "lat": 36.6167, "lon": 24.9167, "protection": "high", "meltemiShield": "excellent", "description": "South coast protected by high cliffs from Meltemi. Turquoise waters." },
+      { "name": "Livadaki Beach", "lat": 36.6333, "lon": 24.9000, "protection": "high", "meltemiShield": "excellent", "description": "Hidden cove with excellent Meltemi shelter. Crystal clear waters." },
+      { "name": "Katergo Beach", "lat": 36.6000, "lon": 24.9333, "protection": "high", "meltemiShield": "excellent", "description": "Remote beach accessible by boat or hike. Perfect wind protection." }
+    ],
+    "serifos": [
+      { "name": "Psili Ammos", "lat": 37.1500, "lon": 24.4833, "protection": "high", "meltemiShield": "excellent", "description": "South coast golden beach, perfectly sheltered from Meltemi. Fine sand." },
+      { "name": "Livadakia Beach", "lat": 37.1667, "lon": 24.5000, "protection": "high", "meltemiShield": "excellent", "description": "Port beach with harbor protection from all winds. Easy access." },
+      { "name": "Ganema Beach", "lat": 37.1833, "lon": 24.4667, "protection": "moderate", "meltemiShield": "moderate", "description": "West coast with moderate wind exposure. Popular beach." }
+    ],
+    "sifnos": [
+      { "name": "Platis Gialos", "lat": 36.9667, "lon": 24.7167, "protection": "high", "meltemiShield": "excellent", "description": "South coast bay with excellent Meltemi protection. Long sandy beach." },
+      { "name": "Faros Beach", "lat": 36.9833, "lon": 24.7500, "protection": "moderate", "meltemiShield": "good", "description": "Southeast coast with lighthouse, some wind protection. Three connected beaches." },
+      { "name": "Vathy Beach", "lat": 36.9500, "lon": 24.6833, "protection": "high", "meltemiShield": "excellent", "description": "Southwest bay completely sheltered during Meltemi. Traditional pottery village." }
+    ],
+    "sikinos": [
+      { "name": "Alopronia Beach", "lat": 36.6833, "lon": 25.1167, "protection": "high", "meltemiShield": "excellent", "description": "Port bay with excellent protection from northern winds. Relaxed atmosphere." },
+      { "name": "Agios Georgios", "lat": 36.6667, "lon": 25.1333, "protection": "moderate", "meltemiShield": "moderate", "description": "East coast with some Meltemi exposure. Sandy beach." },
+      { "name": "Santorineika", "lat": 36.6500, "lon": 25.1000, "protection": "high", "meltemiShield": "good", "description": "Southwest beach with good wind protection. Remote location." }
+    ],
+    "antiparos": [
+      { "name": "Psaraliki Beach", "lat": 37.0333, "lon": 25.0833, "protection": "high", "meltemiShield": "excellent", "description": "Southwest coast completely protected from Meltemi. Family beach." },
+      { "name": "Soros Beach", "lat": 37.0167, "lon": 25.0667, "protection": "moderate", "meltemiShield": "good", "description": "South coast with partial wind protection. Popular spot." },
+      { "name": "Agios Spiridonas", "lat": 37.0500, "lon": 25.0667, "protection": "high", "meltemiShield": "excellent", "description": "West coast bay sheltered from northern winds. Quiet beach." }
+    ],
+    "koufonisia": [
+      { "name": "Pori Beach", "lat": 36.9333, "lon": 25.6000, "protection": "moderate", "meltemiShield": "moderate", "description": "South coast with moderate Meltemi exposure. Natural pools." },
+      { "name": "Fanos Beach", "lat": 36.9500, "lon": 25.6167, "protection": "high", "meltemiShield": "good", "description": "Southwest bay with good wind protection. Pristine waters." },
+      { "name": "Platia Pounta", "lat": 36.9667, "lon": 25.6333, "protection": "low", "meltemiShield": "poor", "description": "East coast - very exposed to all winds. Swimming pools in rocks." }
+    ],
+    "kimolos": [
+      { "name": "Prassa Beach", "lat": 36.7833, "lon": 24.5500, "protection": "high", "meltemiShield": "excellent", "description": "Southwest coast with white sand, excellent Meltemi shelter. Unique white rocks." },
+      { "name": "Bonatsa Beach", "lat": 36.8000, "lon": 24.5667, "protection": "moderate", "meltemiShield": "good", "description": "South coast with some wind protection. Clear waters." },
+      { "name": "Aliki Beach", "lat": 36.8167, "lon": 24.5833, "protection": "low", "meltemiShield": "poor", "description": "Northeast coast - avoid during strong Meltemi. Salt lake behind beach." }
+    ],
+    "rhodes": [
+      { "name": "Lindos Beach", "lat": 36.0833, "lon": 28.0833, "protection": "high", "meltemiShield": "excellent", "description": "Famous bay below Acropolis, excellent protection from all winds. Historic setting." },
+      { "name": "Anthony Quinn Bay", "lat": 36.3333, "lon": 28.2167, "protection": "high", "meltemiShield": "excellent", "description": "Sheltered cove on east coast, perfect during Meltemi. Crystal waters." },
+      { "name": "Tsambika Beach", "lat": 36.2167, "lon": 28.1500, "protection": "moderate", "meltemiShield": "good", "description": "East coast golden beach with partial wind protection. Monastery above." },
+      { "name": "Prasonisi", "lat": 35.8833, "lon": 27.7500, "protection": "low", "meltemiShield": "poor", "description": "Windsurfing paradise - very windy, avoid for swimming during Meltemi." }
+    ],
+    "kos": [
+      { "name": "Kefalos Beach", "lat": 36.7667, "lon": 26.9333, "protection": "moderate", "meltemiShield": "moderate", "description": "Southwest peninsula with moderate Meltemi exposure. Sandy beach." },
+      { "name": "Paradise Beach", "lat": 36.7333, "lon": 26.9167, "protection": "high", "meltemiShield": "good", "description": "South coast with volcanic rocks providing wind shelter. Bubble beach." },
+      { "name": "Agios Stefanos", "lat": 36.7500, "lon": 26.9500, "protection": "high", "meltemiShield": "excellent", "description": "Southwest bay with ancient ruins and wind protection. Island view." }
+    ],
+    "patmos": [
+      { "name": "Psili Ammos", "lat": 37.2667, "lon": 26.5667, "protection": "high", "meltemiShield": "excellent", "description": "South coast golden beach, completely sheltered from Meltemi. Isolated paradise." },
+      { "name": "Agriolivado Beach", "lat": 37.3167, "lon": 26.5833, "protection": "moderate", "meltemiShield": "good", "description": "Southwest coast with good wind protection. Organized beach." },
+      { "name": "Kampi Beach", "lat": 37.3000, "lon": 26.5500, "protection": "high", "meltemiShield": "excellent", "description": "West coast bay perfect during strong winds. Rock formations." }
+    ],
+    "leros": [
+      { "name": "Vromolithos Beach", "lat": 37.1167, "lon": 26.8500, "protection": "high", "meltemiShield": "excellent", "description": "Southwest bay with perfect Meltemi protection. Sandy beach." },
+      { "name": "Panteli Beach", "lat": 37.1500, "lon": 26.8333, "protection": "high", "meltemiShield": "excellent", "description": "West coast fishing village bay, well protected. Traditional tavernas." }
+    ],
+    "kalymnos": [
+      { "name": "Myrties Beach", "lat": 36.9500, "lon": 26.9833, "protection": "high", "meltemiShield": "excellent", "description": "West coast facing Telendos, excellent wind protection. Sunset views." },
+      { "name": "Masouri Beach", "lat": 36.9667, "lon": 26.9667, "protection": "high", "meltemiShield": "excellent", "description": "West coast with dramatic cliffs providing shelter. Rock climbing area." }
+    ],
+    "lesbos": [
+      { "name": "Skala Eressos", "lat": 39.1333, "lon": 25.9333, "protection": "high", "meltemiShield": "excellent", "description": "Southwest coast with excellent protection from northern winds. Long beach." },
+      { "name": "Vatera Beach", "lat": 39.0667, "lon": 26.2333, "protection": "high", "meltemiShield": "good", "description": "South coast long sandy beach with wind protection. 7km of sand." }
+    ],
+    "chios": [
+      { "name": "Mavra Volia", "lat": 38.1667, "lon": 25.8833, "protection": "high", "meltemiShield": "excellent", "description": "Southwest volcanic beach, excellent Meltemi shelter. Black pebbles." },
+      { "name": "Lithi Beach", "lat": 38.1500, "lon": 25.8667, "protection": "high", "meltemiShield": "excellent", "description": "Southwest coast completely protected from northern winds. Quiet beach." }
+    ],
+    "samos": [
+      { "name": "Psili Ammos", "lat": 37.6333, "lon": 26.8167, "protection": "high", "meltemiShield": "excellent", "description": "Southwest peninsula, completely sheltered from Meltemi. Fine sand beach." },
+      { "name": "Potokaki Beach", "lat": 37.6833, "lon": 26.9000, "protection": "moderate", "meltemiShield": "good", "description": "South coast near airport, good wind protection. Long beach." }
+    ],
+    "lemnos": [
+      { "name": "Plathena Beach", "lat": 39.8500, "lon": 25.2167, "protection": "high", "meltemiShield": "excellent", "description": "Southwest coast with excellent wind protection. Shallow waters." },
+      { "name": "Keros Beach", "lat": 39.8667, "lon": 25.1833, "protection": "high", "meltemiShield": "good", "description": "Southwest bay sheltered from northern winds. Kitesurfing spot." }
+    ],
+    "thasos": [
+      { "name": "Aliki Beach", "lat": 40.5833, "lon": 24.7333, "protection": "high", "meltemiShield": "excellent", "description": "Southeast double bay with ancient marble quarries, excellent wind protection." },
+      { "name": "Paradise Beach", "lat": 40.6333, "lon": 24.6667, "protection": "moderate", "meltemiShield": "good", "description": "South coast with partial wind shelter. Popular beach." },
+      { "name": "Marble Beach", "lat": 40.5667, "lon": 24.7500, "protection": "high", "meltemiShield": "excellent", "description": "Southeast coast with unique marble formations providing wind shelter." }
+    ],
+    "crete": [
+      { "name": "Balos Lagoon", "lat": 35.5833, "lon": 23.5833, "protection": "high", "meltemiShield": "excellent", "description": "Northwest lagoon completely protected from all winds by peninsula. Paradise beach." },
+      { "name": "Elafonissi Beach", "lat": 35.2667, "lon": 23.5333, "protection": "high", "meltemiShield": "excellent", "description": "Southwest pink sand lagoon, excellent wind protection. Shallow waters." },
+      { "name": "Falassarna Beach", "lat": 35.4833, "lon": 23.5833, "protection": "moderate", "meltemiShield": "moderate", "description": "West coast with some Meltemi exposure but famous sunsets. Big waves possible." },
+      { "name": "Preveli Beach", "lat": 35.1500, "lon": 24.4667, "protection": "high", "meltemiShield": "excellent", "description": "South coast palm forest river beach, completely sheltered. Unique landscape." }
+    ],
+    "skiathos": [
+      { "name": "Koukounaries Beach", "lat": 39.1333, "lon": 23.4167, "protection": "high", "meltemiShield": "excellent", "description": "Southwest golden beach backed by pine forest, excellent wind protection." },
+      { "name": "Banana Beach", "lat": 39.1167, "lon": 23.4333, "protection": "high", "meltemiShield": "excellent", "description": "South coast beach with excellent shelter from northern winds. Two sections." },
+      { "name": "Lalaria Beach", "lat": 39.2167, "lon": 23.5000, "protection": "low", "meltemiShield": "poor", "description": "North coast white pebble beach - very exposed to Meltemi. Boat access only." }
+    ],
+    "skopelos": [
+      { "name": "Kastani Beach", "lat": 39.0833, "lon": 23.6833, "protection": "high", "meltemiShield": "excellent", "description": "Southwest Mamma Mia beach, excellent protection from northern winds." },
+      { "name": "Panormos Beach", "lat": 39.1167, "lon": 23.6667, "protection": "high", "meltemiShield": "excellent", "description": "Northwest bay completely sheltered from Meltemi. Pine trees." },
+      { "name": "Agnontas Beach", "lat": 39.0833, "lon": 23.7000, "protection": "high", "meltemiShield": "excellent", "description": "Southeast fishing village bay, well protected. Traditional atmosphere." }
+    ]
+  }
+}

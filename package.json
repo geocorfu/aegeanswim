@@ -1,0 +1,31 @@
+{
+  "name": "aegeanswim",
+  "version": "1.0.0",
+  "description": "Find perfect swimming beaches in the Aegean Sea based on real-time wind conditions",
+  "main": "backend/src/server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && python3 -m http.server 3000",
+    "start": "cd backend && npm start",
+    "install:all": "npm install && cd backend && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geocorfu/aegeanswim.git"
+  },
+  "keywords": [
+    "aegean",
+    "swimming",
+    "beaches",
+    "weather",
+    "greece",
+    "cyclades",
+    "meltemi"
+  ],
+  "author": "Geo Kritikos",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
